@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding-right: 78px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav h1 {
+    margin: 0px 50px;
+    color: #636060;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 31px;
+    padding-top: 33px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#owl {
+    width: 33px;
+    height: 42px;
+    padding-left: 99px;
+    padding-top: 24px;
+}
+
+#pic {
+    height: 606px;
+    width: 1520px;
+    position: relative;
+    display: inline-block;
+}
+
+#greece {
+    height: 606px;
+    width: 1520px;
+    object-fit: cover;
+    position: relative;  
+}
+
+#didi {
+    font-weight: 700;
+    font-size: 79px;
+    position: absolute;
+    padding-left: 507px;
+    padding-bottom: 277px;
+    z-index: 10;
+    width: 625px;
+    height: 91px;
+}
+
+#small {
+    font-size: 19px;
+    font-weight: 400;
+    position: absolute;
+    z-index: 10;
+    width: 333px;
+    height: 22px;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 84px;
+    padding-left: 100px;
+    width: 235px;
+}
+
+#text > h2 {
+    width: 89px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #636060;
+}
+
+#text > h1 {
+    width: 214px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 28px;
+    color: #010101;
+    margin-top: 9px;
+}
+
+#text > p {
+    width: 235px;
+    height: 115px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #636060;
+    margin-top: 37px;
+}
