@@ -115,6 +115,17 @@ main {
 
 #cards {
     display: flex;
+    flex-direction: column;
+    margin-bottom: 140px;
+}
+
+#group1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#group2 {
+    display: flex;
     flex-direction: row;
 }
 
@@ -231,8 +242,8 @@ main {
     width: 286px;
     display: flex;
     flex-direction: column;
-    margin-left: 33px;
-    margin-top: 452px;
+    margin-left: 83px;
+    margin-top: 56px;
 }
 
 #four img {
@@ -261,3 +272,74 @@ main {
     margin-top: 9px;
 }
 
+
+
+#five {
+    width: 286px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 33px;
+    margin-top: 56px;
+}
+
+#five img {
+    width: 286px;
+    height: 195px;
+    object-fit: cover;
+}
+
+#five h1 {
+    width: 259px;
+    height: 22px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #343232;
+    margin-top: 23px;
+}
+
+#five p {
+    width: 286px;
+    height: 63px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #636060;
+    margin-top: 9px;
+}
+
+
+
+#six {
+    width: 286px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 33px;
+    margin-top: 56px;
+}
+
+#six img {
+    width: 286px;
+    height: 195px;
+    object-fit: cover;
+}
+
+#six h1 {
+    width: 259px;
+    height: 22px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #343232;
+    margin-top: 23px;
+}
+
+#six p {
+    width: 286px;
+    height: 63px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #636060;
+    margin-top: 9px;
+}
