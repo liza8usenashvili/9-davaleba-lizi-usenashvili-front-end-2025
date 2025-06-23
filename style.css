@@ -343,3 +343,88 @@ main {
     color: #636060;
     margin-top: 9px;
 }
+
+
+@media only screen and (max-width: 400px){
+    #owl {
+        width: 60px;
+        height: 56px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+
+    #nav {
+        margin-top: 80px;
+        width: 400px;
+        height: 150px;
+        display: inline;
+        margin-left: 20px;
+    }
+
+
+    #nav h1 {
+       display: none;
+    }
+
+    #nav i {
+        margin-left: 40px;
+        font-size: 36px;
+
+    }
+
+    #greece {
+        width: 380px;
+        height: 300px;
+        margin-top: 20px;
+    }
+ 
+    #pic {
+        width: 380px;
+        height: 300px;
+        margin-top: 20px;
+        display: flex;
+    }
+
+    #didi {
+        font-size: 36px;
+        margin-left: 50px;
+        margin-top: 150px;
+        width: 300px;
+    }
+    #small {
+        font-size: 16px;
+        margin-left: 50px;
+        margin-top: 200px;
+        width: 300px;
+    }
+
+    #text {
+        height: 220px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #group1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #group2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #one {
+        margin-left: 33px;
+    }
+
+    #four {
+        margin-left: 33px;
+    }
+
+}
